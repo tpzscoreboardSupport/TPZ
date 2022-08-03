@@ -451,6 +451,11 @@
         background-color: seagreen;
         padding: 10px;
     }
+
+    .Personal_Record_title img {
+        width: 200px;
+    }
+
     .Personal_Record_User_Video iframe {
         width: 100%;
         height: 200px;
@@ -820,6 +825,11 @@
         background-color: seagreen;
         padding: 10px;
     }
+
+    .Personal_Record_title img {
+        width: 400px;
+    }
+
     .Personal_Record_User_Video iframe {
         width: 100%;
         height: 400px;
@@ -1233,6 +1243,11 @@
         background-color: seagreen;
         padding: 10px;
     }
+
+    .Personal_Record_title img {
+        width: 600px;
+    }
+
     .Personal_Record_User_Video iframe {
         width: 100%;
         height: 600px;
@@ -1617,6 +1632,11 @@
                 background-color: seagreen;
                 padding: 10px;
             }
+
+            .Personal_Record_title img {
+                width: 800px;
+            }
+
             .Personal_Record_User_Video iframe {
                 width: 100%;
                 height: 800px;
