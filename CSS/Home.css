@@ -1,12 +1,21 @@
 @media (min-width:0px) {
+    @font-face {
+        font-family: "jua";
+        src: url("../FONT/BMJUA_otf.otf");
+      }
+
         /* 모든 요소 여백 초기화*/
     * {
         padding: 0px;
         margin: 0px;
     }
+    a {
+        text-decoration: none;
+    }
 
     /* 공통 속성 적용*/
     body {
+        font-family: "jua";
         display: block;
         margin-left: auto;
         margin-right: auto;
@@ -26,7 +35,6 @@
 
     /* a 태그 속성 설정*/
     .navbar a {
-        text-decoration: none;
         color: black;
         font-weight: bold;
         font-size: 100%;
@@ -190,36 +198,54 @@
         height: 200px;
     }
 
-    /* 맵 상단 올리기 버튼 */
-    .toTOP {
+    /* 공지사항 상단 올리기 버튼 */
+    .toTOP_NOTICE {
         margin-top: 7px;
         margin-right: 5px;
+        position: relative;
+        padding: 10px;
+        left: 3%;
+        bottom: 20px;
+        font-size: 16px;
+        border-radius: 20px;
+        color: black;
+        background-color: #f5c194;
+    }
+
+    /* 맵 상단 올리기 버튼 */
+    .toTOP_MAP {
+        margin-top: 5px;
+        margin-right: 5px;
+        padding: 2px;
         float: right;
         font-size: 16px;
-        text-decoration: none;
         border-radius: 10px;
         color: black;
         background-color: #f5c194;
     }
+
     /* 맵 선택자 */
 
     .map_selector {
-        margin-top: 20px;
+        margin-top: 60px;
+        width: 90%;
+        height: 300px;
+        margin-bottom: 60px;
         display: block;
         margin-left: auto;
         margin-right: auto;
-        width: 300px;
-        height: 200px;
-        margin-bottom: 20px;
     }
+
     .map_selector a {
         border-radius: 5px;
         font-size: 16px;
-        background-color: mediumaquamarine;
+        background-color: seagreen;
         color: white;
-        margin-left: 5px;
-        margin-right: 5px;
+        margin: 10px;
+        padding: 5px;
+        float:left;
     }
+
     /*맵 공통 설정 */
 
     .map_title {
@@ -230,7 +256,7 @@
 
     .map_record {
         margin-top: 20px;
-        font-size: 16px;
+        font-size: 20px;
     }
 
     .map_info_link {
@@ -240,7 +266,7 @@
 
     .map_info_link a {
         border-radius: 10px;
-        text-decoration: none;
+        font-size: 20px;
         color: black;
         background-color: chocolate;
     }
@@ -469,36 +495,54 @@
         height: 200px;
     }
 
-     /* 맵 상단 올리기 버튼 */
-    .toTOP {
+    /* 공지사항 상단 올리기 버튼 */
+    .toTOP_NOTICE {
         margin-top: 7px;
         margin-right: 5px;
+        position: relative;
+        padding: 10px;
+        left: 3%;
+        bottom: 20px;
+        font-size: 16px;
+        border-radius: 20px;
+        color: black;
+        background-color: #f5c194;
+    }
+
+    /* 맵 상단 올리기 버튼 */
+    .toTOP_MAP {
+        margin-top: 5px;
+        margin-right: 5px;
+        padding: 2px;
         float: right;
         font-size: 16px;
-        text-decoration: none;
         border-radius: 10px;
         color: black;
         background-color: #f5c194;
     }
+
     /* 맵 선택자 */
 
     .map_selector {
-        margin-top: 20px;
+        margin-top: 60px;
+        width: 90%;
+        height: 300px;
+        margin-bottom: 60px;
         display: block;
         margin-left: auto;
         margin-right: auto;
-        width: 300px;
-        height: 200px;
-        margin-bottom: 20px;
     }
+
     .map_selector a {
         border-radius: 5px;
         font-size: 16px;
-        background-color: mediumaquamarine;
+        background-color: seagreen;
         color: white;
-        margin-left: 5px;
-        margin-right: 5px;
+        margin: 10px;
+        padding: 5px;
+        float:left
     }
+
     /*맵 공통 설정 */
 
     .map_title {
@@ -509,7 +553,7 @@
 
     .map_record {
         margin-top: 20px;
-        font-size: 16px;
+        font-size: 20px;
     }
 
     .map_info_link {
@@ -519,7 +563,7 @@
 
     .map_info_link a {
         border-radius: 10px;
-        text-decoration: none;
+        font-size: 20px;
         color: black;
         background-color: chocolate;
     }
@@ -746,36 +790,54 @@
         height: 250px;
     }
 
-    /* 맵 상단 올리기 버튼 */
-    .toTOP {
+    /* 공지사항 상단 올리기 버튼 */
+    .toTOP_NOTICE {
         margin-top: 7px;
         margin-right: 5px;
+        position: relative;
+        padding: 10px;
+        left: 3%;
+        bottom: 20px;
+        font-size: 16px;
+        border-radius: 20px;
+        color: black;
+        background-color: #f5c194;
+    }
+
+    /* 맵 상단 올리기 버튼 */
+    .toTOP_MAP {
+        margin-top: 5px;
+        margin-right: 5px;
+        padding: 2px;
         float: right;
         font-size: 16px;
-        text-decoration: none;
         border-radius: 10px;
         color: black;
         background-color: #f5c194;
     }
+
     /* 맵 선택자 */
 
     .map_selector {
-        margin-top: 20px;
+        margin-top: 60px;
+        width: 90%;
+        height: 300px;
+        margin-bottom: 60px;
         display: block;
         margin-left: auto;
         margin-right: auto;
-        width: 300px;
-        height: 200px;
-        margin-bottom: 20px;
     }
+
     .map_selector a {
         border-radius: 5px;
         font-size: 16px;
-        background-color: mediumaquamarine;
+        background-color: seagreen;
         color: white;
-        margin-left: 5px;
-        margin-right: 5px;
+        margin: 10px;
+        padding: 5px;
+        float:left
     }
+
     /*맵 공통 설정 */
 
     .map_title {
@@ -786,7 +848,7 @@
 
     .map_record {
         margin-top: 20px;
-        font-size: 16px;
+        font-size: 20px;
     }
 
     .map_info_link {
@@ -796,7 +858,7 @@
 
     .map_info_link a {
         border-radius: 10px;
-        text-decoration: none;
+        font-size: 20px;
         color: black;
         background-color: chocolate;
     }
@@ -1028,36 +1090,54 @@
         height: 250px;
     }
 
-    /* 맵 상단 올리기 버튼 */
-    .toTOP {
+    /* 공지사항 상단 올리기 버튼 */
+    .toTOP_NOTICE {
         margin-top: 7px;
         margin-right: 5px;
+        position: relative;
+        padding: 10px;
+        left: 3%;
+        bottom: 20px;
+        font-size: 16px;
+        border-radius: 20px;
+        color: black;
+        background-color: #f5c194;
+    }
+
+    /* 맵 상단 올리기 버튼 */
+    .toTOP_MAP {
+        margin-top: 5px;
+        margin-right: 5px;
+        padding: 2px;
         float: right;
         font-size: 16px;
-        text-decoration: none;
         border-radius: 10px;
         color: black;
         background-color: #f5c194;
     }
+
     /* 맵 선택자 */
 
     .map_selector {
-        margin-top: 20px;
+        margin-top: 60px;
+        width: 90%;
+        height: 300px;
+        margin-bottom: 60px;
         display: block;
         margin-left: auto;
         margin-right: auto;
-        width: 300px;
-        height: 200px;
-        margin-bottom: 20px;
     }
+
     .map_selector a {
         border-radius: 5px;
         font-size: 16px;
-        background-color: mediumaquamarine;
+        background-color: seagreen;
         color: white;
-        margin-left: 5px;
-        margin-right: 5px;
+        margin: 10px;
+        padding: 5px;
+        float:left
     }
+
     /*맵 공통 설정 */
 
     .map_title {
@@ -1068,7 +1148,7 @@
 
     .map_record {
         margin-top: 20px;
-        font-size: 16px;
+        font-size: 20px;
     }
 
     .map_info_link {
@@ -1078,7 +1158,7 @@
 
     .map_info_link a {
         border-radius: 10px;
-        text-decoration: none;
+        font-size: 20px;
         color: black;
         background-color: chocolate;
     }
