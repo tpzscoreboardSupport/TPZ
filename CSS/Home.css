@@ -118,6 +118,7 @@
         display: inline-block;
         text-align: center;
         width: 350px;
+        position: relative;
     }
 
     #notice_space_1, #notice_space_2, #notice_space_3,#notice_space_4,#notice_space_5,#notice_space_6,#notice_space_7,#notice_space_8 {
@@ -202,10 +203,10 @@
     .toTOP_NOTICE {
         margin-top: 7px;
         margin-right: 5px;
-        position: relative;
+        position: absolute;
         padding: 10px;
-        left: 3%;
-        bottom: 20px;
+        right: -40px;
+        bottom: 10px;
         font-size: 16px;
         border-radius: 20px;
         color: black;
@@ -499,10 +500,10 @@
     .toTOP_NOTICE {
         margin-top: 7px;
         margin-right: 5px;
-        position: relative;
+        position: absolute;
         padding: 10px;
-        left: 3%;
-        bottom: 20px;
+        right: -40px;
+        bottom: 10px;
         font-size: 16px;
         border-radius: 20px;
         color: black;
@@ -794,10 +795,10 @@
     .toTOP_NOTICE {
         margin-top: 7px;
         margin-right: 5px;
-        position: relative;
+        position: absolute;
         padding: 10px;
-        left: 3%;
-        bottom: 20px;
+        right: -40px;
+        bottom: 10px;
         font-size: 16px;
         border-radius: 20px;
         color: black;
@@ -1094,10 +1095,10 @@
     .toTOP_NOTICE {
         margin-top: 7px;
         margin-right: 5px;
-        position: relative;
+        position: absolute;
         padding: 10px;
-        left: 3%;
-        bottom: 20px;
+        right: -40px;
+        bottom: 10px;
         font-size: 16px;
         border-radius: 20px;
         color: black;
