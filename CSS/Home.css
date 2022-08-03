@@ -1,12 +1,13 @@
 ::-webkit-scrollbar {
     display: none;
   }
+  @font-face {
+    font-family: "jua";
+    src: url("../FONT/BMJUA_otf.otf");
+  }
 
+  
 @media (min-width:0px) {
-    @font-face {
-        font-family: "jua";
-        src: url("../FONT/BMJUA_otf.otf");
-      }
 
         /* 모든 요소 여백 초기화*/
     * {
@@ -42,7 +43,8 @@
     .navbar a {
         color: black;
         font-weight: bold;
-        font-size: 100%;
+        /* font-size: 100%; */
+        font-size: 16px;
     }
 
     /* nabar 자식 버튼 속성 설정*/
@@ -258,7 +260,7 @@
     .map_selector a:hover {
         background-color: rgba(247, 80, 51);
         opacity: 1;
-        font-size: 18px;
+        font-size: 16px;
     }
 
     /*맵 공통 설정 */
@@ -452,6 +454,10 @@
         padding: 10px;
     }
 
+    .Personal_Record_title h1 {
+        font-size: 28px;
+    }
+
     .Personal_Record_title img {
         width: 200px;
     }
@@ -479,10 +485,22 @@
         margin-top: 20px;
         font-weight: bold;
     }
-}
+    
+    .map_boxing {
+        margin: 1px;
+        color: white;
+    }
 
 @media (min-width:767px) {
 
+    /*네비게이션 글자 크기 조절*/
+    .navbar a {
+        color: black;
+        font-weight: bold;
+        /* font-size: 100%; */
+        font-size: 20px;
+    }
+    
     /* home body main img */
     #home_main_img {
         background-image: url("../Image/Home/body_img/home_main.jpg");
@@ -826,8 +844,12 @@
         padding: 10px;
     }
 
+    .Personal_Record_title h1 {
+        font-size: 34px;
+    }
+
     .Personal_Record_title img {
-        width: 400px;
+        width: 250px;
     }
 
     .Personal_Record_User_Video iframe {
@@ -855,18 +877,31 @@
     }
     .map_boxing {
         float: left;
-        width: 33.3%;
+        width: 33%;
     }
 
     .map_boxing .map_record_info {
         padding: 25px;
     }
 
+    .map_boxing .map_record_info h3 {
+        margin-top: 100px;
+    }
+
     .league_depense_box {
-        height: 1290px;
+        height: 1309px;
     }
 
 @media (min-width:991px) {
+
+    /*네비게이션 글자 크기 조절*/
+    .navbar a {
+        color: black;
+        font-weight: bold;
+        /* font-size: 100%; */
+        font-size: 24px;
+    }
+
     /* home body main img */
     #home_main_img {
         background-image: url("../Image/Home/body_img/home_main.jpg");
@@ -1015,7 +1050,7 @@
     .map_selector a:hover {
         background-color: rgba(247, 80, 51);
         opacity: 1;
-        font-size: 26px;
+        font-size: 24px;
     }
 
     /*맵 공통 설정 */
@@ -1244,8 +1279,12 @@
         padding: 10px;
     }
 
+    .Personal_Record_title h1 {
+        font-size: 40px;
+    }
+
     .Personal_Record_title img {
-        width: 600px;
+        width: 300px;
     }
 
     .Personal_Record_User_Video iframe {
@@ -1273,20 +1312,32 @@
     }
     .map_boxing {
         float: left;
-        width: 33.3%;
+        width: 33.1%;
     }
 
     .map_boxing .map_record_info {
         padding: 25px;
     }
 
+    .map_boxing .map_record_info h3 {
+        margin-top: 100px;
+    }
+
     .league_depense_box {
-        height: 1290px;
+        height: 1316px;
     }
 }
 
-
     @media (min-width:1500px) {
+
+        /*네비게이션 글자 크기 조절*/
+        .navbar a {
+            color: black;
+            font-weight: bold;
+            /* font-size: 100%; */
+            font-size: 28px;
+        }
+        
         /* home body main img */
         #home_main_img {
             background-image: url("../Image/Home/body_img/home_main.jpg");
@@ -1317,7 +1368,7 @@
             margin-right: 20px;
         }
 
-        #notice_space_4 {
+        #notice_space_5 {
             margin-right: 0px;
         }
 
@@ -1439,7 +1490,7 @@
         .map_selector a:hover {
             background-color: rgba(247, 80, 51);
             opacity: 1;
-            font-size: 34px;
+            font-size: 32px;
         }
 
         /*맵 공통 설정 */
@@ -1633,8 +1684,12 @@
                 padding: 10px;
             }
 
+            .Personal_Record_title h1 {
+                font-size: 46px;
+            }
+
             .Personal_Record_title img {
-                width: 800px;
+                width: 350px;
             }
 
             .Personal_Record_User_Video iframe {
@@ -1662,15 +1717,20 @@
             }
             .map_boxing {
                 float: left;
-                width: 25%;
+                width: 24.85%;
             }
         
             .map_boxing .map_record_info {
                 padding: 25px;
             }
         
+            .map_boxing .map_record_info h3 {
+                margin-top: 100px;
+            }
+
             .league_depense_box {
-                height: 890px;
+                height: 939px;
             }
         }
     }
+}
