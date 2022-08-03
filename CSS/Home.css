@@ -148,6 +148,188 @@
         margin-bottom: 20px;
         font-size: 13px;
     } 
+
+    /* 맵 상단 올리기 버튼 */
+    .toTOP {
+        margin-top: 7px;
+        margin-right: 5px;
+        float: right;
+        font-size: 16px;
+        text-decoration: none;
+        border-radius: 10px;
+        color: black;
+        background-color: #f5c194;
+    }
+    /* 맵 선택자 */
+
+    .map_selector {
+        margin-top: 20px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 300px;
+        height: 200px;
+        margin-bottom: 20px;
+    }
+    .map_selector a {
+        border-radius: 5px;
+        font-size: 16px;
+        background-color: mediumaquamarine;
+        color: white;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    /*맵 공통 설정 */
+
+    .map_title {
+        font-size: 26px;
+        background-color: seagreen;
+        font-weight: bold;
+    }
+
+    .map_record {
+        margin-top: 20px;
+        font-size: 16px;
+    }
+
+    .map_info_link {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .map_info_link a {
+        border-radius: 10px;
+        text-decoration: none;
+        color: black;
+        background-color: chocolate;
+    }
+
+    .map_info_link a:hover {
+        background-color: coral;
+    }
+
+    /*맵별 설정*/
+    .map_img_fighting_split {
+        background-image: url("../Image/Map/fighting.jpg");
+        background-size: cover;
+        background-position: center center;
+        width: 100%;
+        height: 400px;
+    }
+
+    .map_img_polipoid {
+        background-image: url("../Image/Map/polipoid.jpg");
+        background-size: cover;
+        background-position: center center;
+        width: 100%;
+        height: 400px;
+    }
+
+    .map_img_largo {
+        background-image: url("../Image/Map/largo.jpg");
+        background-size: cover;
+        background-position: center center;
+        width: 100%;
+        height: 400px;
+    }
+
+    .map_img_accention {
+        background-image: url("../Image/Map/accention.jpg");
+        background-size: cover;
+        background-position: center center;
+        width: 100%;
+        height: 400px;
+    }
+    
+    .map_img_rivolver {
+        background-image: url("../Image/Map/rivolver.jpg");
+        background-size: cover;
+        background-position: center center;
+        width: 100%;
+        height: 400px;
+    }
+
+    .map_img_eclipse {
+        background-image: url("../Image/Map/eclipse.jpg");
+        background-size: cover;
+        background-position: center center;
+        width: 100%;
+        height: 400px;
+    }
+
+    .map_img_goodnight {
+        background-image: url("../Image/Map/goodnight.jpg");
+        background-size: cover;
+        background-position: center center;
+        width: 100%;
+        height: 400px;
+    }
+
+    .map_img_butter {
+        background-image: url("../Image/Map/butter.jpg");
+        background-size: cover;
+        background-position: center center;
+        width: 100%;
+        height: 400px;
+    }
+
+    .map_img_allegro {
+        background-image: url("../Image/Map/allegro.jpg");
+        background-size: cover;
+        background-position: center center;
+        width: 100%;
+        height: 400px;
+    }
+
+    .map_img_vermee {
+        background-image: url("../Image/Map/vermee.jpg");
+        background-size: cover;
+        background-position: center center;
+        width: 100%;
+        height: 400px;
+    }
+
+    .map_img_Neo_arkanoid {
+        background-image: url("../Image/Map/Neo_arkanoid.jpg");
+        background-size: cover;
+        background-position: center center;
+        width: 100%;
+        height: 400px;
+    }
+
+    .map_img_odyssey {
+        background-image: url("../Image/Map/odyssey.jpg");
+        background-size: cover;
+        background-position: center center;
+        width: 100%;
+        height: 400px;
+    }
+
+    .map_img_nemesis {
+        background-image: url("../Image/Map/nemesis.jpg");
+        background-size: cover;
+        background-position: center center;
+        width: 100%;
+        height: 400px;
+    }
+
+    .map_img_fallOut {
+        background-image: url("../Image/Map/fallOut.png");
+        background-size: cover;
+        background-position: center center;
+        width: 100%;
+        height: 400px;
+    }
+
+    .map_img_frost {
+        background-image: url("../Image/Map/frost.jpg");
+        background-size: cover;
+        background-position: center center;
+        width: 100%;
+        height: 400px;
+    }
+
+
 }
 
 @media (min-width:767px) {
@@ -165,13 +347,249 @@
         height: 740px;
         display: inline-block;
         text-align: center;
-        width: 450px;
+        width: 680px;
         height: 1400px;
     }
 
     #notice_space_1, #notice_space_2, #notice_space_3,#notice_space_4 {
         margin-top: 60px;
-        width: 400px;
+        width: 300px;
+        height: 280px;
+        float: left;
+        border-radius: 20px;
+        background-color: rgb(247, 80, 51);
+        margin-left: 20px;
+        margin-right: 20px;
+        font-weight: bold;
+    }
+
+    /*공지사항 제목 */
+    .notice_title {
+        background-color: seagreen;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+
+    .notice_title h1{
+        font-size: 26px;
+    }
+
+    /* 공지사항 내용*/
+    .notice_content_list {
+        height: 200px;
+        margin-top: 20px;
+        overflow-y: auto;
+        text-decoration: underline;
+    }
+
+    .notice_content_list li {
+        list-style: none;
+        margin-bottom: 20px;
+        font-size: 12px;
+    }
+
+     /* 맵 상단 올리기 버튼 */
+    .toTOP {
+        margin-top: 7px;
+        margin-right: 5px;
+        float: right;
+        font-size: 16px;
+        text-decoration: none;
+        border-radius: 10px;
+        color: black;
+        background-color: #f5c194;
+    }
+    /* 맵 선택자 */
+
+    .map_selector {
+        margin-top: 20px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 300px;
+        height: 200px;
+        margin-bottom: 20px;
+    }
+    .map_selector a {
+        border-radius: 5px;
+        font-size: 16px;
+        background-color: mediumaquamarine;
+        color: white;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    /*맵 공통 설정 */
+
+    .map_title {
+        font-size: 26px;
+        background-color: seagreen;
+        font-weight: bold;
+    }
+
+    .map_record {
+        margin-top: 20px;
+        font-size: 16px;
+    }
+
+    .map_info_link {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .map_info_link a {
+        border-radius: 10px;
+        text-decoration: none;
+        color: black;
+        background-color: chocolate;
+    }
+
+    .map_info_link a:hover {
+        background-color: coral;
+    }
+
+    /*맵별 설정*/
+    .map_img_fighting_split {
+        background-image: url("../Image/Map/fighting.jpg");
+        background-size: cover;
+        background-position: center center;
+        width: 100%;
+        height: 400px;
+    }
+
+    .map_img_polipoid {
+        background-image: url("../Image/Map/polipoid.jpg");
+        background-size: cover;
+        background-position: center center;
+        width: 100%;
+        height: 400px;
+    }
+
+    .map_img_largo {
+        background-image: url("../Image/Map/largo.jpg");
+        background-size: cover;
+        background-position: center center;
+        width: 100%;
+        height: 400px;
+    }
+
+    .map_img_accention {
+        background-image: url("../Image/Map/accention.jpg");
+        background-size: cover;
+        background-position: center center;
+        width: 100%;
+        height: 400px;
+    }
+    
+    .map_img_rivolver {
+        background-image: url("../Image/Map/rivolver.jpg");
+        background-size: cover;
+        background-position: center center;
+        width: 100%;
+        height: 400px;
+    }
+
+    .map_img_eclipse {
+        background-image: url("../Image/Map/eclipse.jpg");
+        background-size: cover;
+        background-position: center center;
+        width: 100%;
+        height: 400px;
+    }
+
+    .map_img_goodnight {
+        background-image: url("../Image/Map/goodnight.jpg");
+        background-size: cover;
+        background-position: center center;
+        width: 100%;
+        height: 400px;
+    }
+
+    .map_img_butter {
+        background-image: url("../Image/Map/butter.jpg");
+        background-size: cover;
+        background-position: center center;
+        width: 100%;
+        height: 400px;
+    }
+
+    .map_img_allegro {
+        background-image: url("../Image/Map/allegro.jpg");
+        background-size: cover;
+        background-position: center center;
+        width: 100%;
+        height: 400px;
+    }
+
+    .map_img_vermee {
+        background-image: url("../Image/Map/vermee.jpg");
+        background-size: cover;
+        background-position: center center;
+        width: 100%;
+        height: 400px;
+    }
+
+    .map_img_Neo_arkanoid {
+        background-image: url("../Image/Map/Neo_arkanoid.jpg");
+        background-size: cover;
+        background-position: center center;
+        width: 100%;
+        height: 400px;
+    }
+
+    .map_img_odyssey {
+        background-image: url("../Image/Map/odyssey.jpg");
+        background-size: cover;
+        background-position: center center;
+        width: 100%;
+        height: 400px;
+    }
+
+    .map_img_nemesis {
+        background-image: url("../Image/Map/nemesis.jpg");
+        background-size: cover;
+        background-position: center center;
+        width: 100%;
+        height: 400px;
+    }
+
+    .map_img_fallOut {
+        background-image: url("../Image/Map/fallOut.png");
+        background-size: cover;
+        background-position: center center;
+        width: 100%;
+        height: 400px;
+    }
+
+    .map_img_frost {
+        background-image: url("../Image/Map/frost.jpg");
+        background-size: cover;
+        background-position: center center;
+        width: 100%;
+        height: 400px;
+    }
+}
+
+@media (min-width:991px) {
+    /* home body main img */
+    #home_main_img {
+        background-image: url("../Image/Home/body_img/home_main.jpg");
+        background-position: center top;
+        background-size: cover;
+        height: 450px;
+    }
+
+    /*공지사항 레이아웃*/
+    .notice {
+        height: 740px;
+        display: inline-block;
+        text-align: center;
+        width: 800px;
+        height: 1400px;
+    }
+
+    #notice_space_1, #notice_space_2, #notice_space_3,#notice_space_4 {
+        margin-top: 60px;
+        width: 360px;
         height: 280px;
         float: left;
         border-radius: 20px;
@@ -205,116 +623,188 @@
         margin-bottom: 20px;
         font-size: 16px;
     }
-}
 
-@media (min-width:991px) {
-    /* home body main img */
-    #home_main_img {
-        background-image: url("../Image/Home/body_img/home_main.jpg");
-        background-position: center top;
-        background-size: cover;
-        height: 450px;
+    /* 맵 상단 올리기 버튼 */
+    .toTOP {
+        margin-top: 7px;
+        margin-right: 5px;
+        float: right;
+        font-size: 16px;
+        text-decoration: none;
+        border-radius: 10px;
+        color: black;
+        background-color: #f5c194;
     }
+    /* 맵 선택자 */
 
-    /*공지사항 레이아웃*/
-    .notice {
-        height: 740px;
-        display: inline-block;
-        text-align: center;
-        width: 450px;
-        height: 1400px;
+    .map_selector {
+        margin-top: 20px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 300px;
+        height: 200px;
+        margin-bottom: 20px;
     }
+    .map_selector a {
+        border-radius: 5px;
+        font-size: 16px;
+        background-color: mediumaquamarine;
+        color: white;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    /*맵 공통 설정 */
 
-    #notice_space_1, #notice_space_2, #notice_space_3,#notice_space_4 {
-        margin-top: 60px;
-        width: 400px;
-        height: 280px;
-        float: left;
-        border-radius: 20px;
-        background-color: rgb(247, 80, 51);
-        margin-left: 20px;
-        margin-right: 20px;
+    .map_title {
+        font-size: 26px;
+        background-color: seagreen;
         font-weight: bold;
     }
 
-    /*공지사항 제목 */
-    .notice_title {
-        background-color: seagreen;
-        border-top-left-radius: 20px;
-        border-top-right-radius: 20px;
-    }
-
-    .notice_title h1{
-        font-size: 26px;
-    }
-
-    /* 공지사항 내용*/
-    .notice_content_list {
-        height: 200px;
+    .map_record {
         margin-top: 20px;
-        overflow-y: auto;
-        text-decoration: underline;
+        font-size: 16px;
     }
 
-    .notice_content_list li {
-        list-style: none;
+    .map_info_link {
+        margin-top: 20px;
         margin-bottom: 20px;
     }
-}
 
-@media (min-width:992px) {
-    /* home body main img */
-    #home_main_img {
-        background-image: url("../Image/Home/body_img/home_main.jpg");
-        background-position: center top;
+    .map_info_link a {
+        border-radius: 10px;
+        text-decoration: none;
+        color: black;
+        background-color: chocolate;
+    }
+
+    .map_info_link a:hover {
+        background-color: coral;
+    }
+
+    /*맵별 설정*/
+    .map_img_fighting_split {
+        background-image: url("../Image/Map/fighting.jpg");
         background-size: cover;
-        height: 745px;
+        background-position: center center;
+        width: 100%;
+        height: 400px;
     }
 
-        /*공지사항 레이아웃*/
-        .notice {
-        height: 740px;
-        display: inline-block;
-        text-align: center;
-        width: 900px;
+    .map_img_polipoid {
+        background-image: url("../Image/Map/polipoid.jpg");
+        background-size: cover;
+        background-position: center center;
+        width: 100%;
+        height: 400px;
     }
 
-    #notice_space_1, #notice_space_2, #notice_space_3,#notice_space_4 {
-        margin-top: 60px;
-        width: 400px;
-        height: 280px;
-        float: left;
-        border-radius: 20px;
-        background-color: rgb(247, 80, 51);
-        margin-left: 20px;
-        margin-right: 20px;
-        font-weight: bold;
+    .map_img_largo {
+        background-image: url("../Image/Map/largo.jpg");
+        background-size: cover;
+        background-position: center center;
+        width: 100%;
+        height: 400px;
     }
 
-    /*공지사항 제목 */
-    .notice_title {
-        background-color: seagreen;
-        border-top-left-radius: 20px;
-        border-top-right-radius: 20px;
+    .map_img_accention {
+        background-image: url("../Image/Map/accention.jpg");
+        background-size: cover;
+        background-position: center center;
+        width: 100%;
+        height: 400px;
+    }
+    
+    .map_img_rivolver {
+        background-image: url("../Image/Map/rivolver.jpg");
+        background-size: cover;
+        background-position: center center;
+        width: 100%;
+        height: 400px;
     }
 
-    .notice_title h1{
-        font-size: 26px;
+    .map_img_eclipse {
+        background-image: url("../Image/Map/eclipse.jpg");
+        background-size: cover;
+        background-position: center center;
+        width: 100%;
+        height: 400px;
     }
 
-    /* 공지사항 내용*/
-    .notice_content_list {
-        height: 200px;
-        margin-top: 20px;
-        overflow-y: auto;
-        text-decoration: underline;
+    .map_img_goodnight {
+        background-image: url("../Image/Map/goodnight.jpg");
+        background-size: cover;
+        background-position: center center;
+        width: 100%;
+        height: 400px;
     }
 
-    .notice_content_list li {
-        list-style: none;
-        margin-bottom: 20px;
+    .map_img_butter {
+        background-image: url("../Image/Map/butter.jpg");
+        background-size: cover;
+        background-position: center center;
+        width: 100%;
+        height: 400px;
+    }
+
+    .map_img_allegro {
+        background-image: url("../Image/Map/allegro.jpg");
+        background-size: cover;
+        background-position: center center;
+        width: 100%;
+        height: 400px;
+    }
+
+    .map_img_vermee {
+        background-image: url("../Image/Map/vermee.jpg");
+        background-size: cover;
+        background-position: center center;
+        width: 100%;
+        height: 400px;
+    }
+
+    .map_img_Neo_arkanoid {
+        background-image: url("../Image/Map/Neo_arkanoid.jpg");
+        background-size: cover;
+        background-position: center center;
+        width: 100%;
+        height: 400px;
+    }
+
+    .map_img_odyssey {
+        background-image: url("../Image/Map/odyssey.jpg");
+        background-size: cover;
+        background-position: center center;
+        width: 100%;
+        height: 400px;
+    }
+
+    .map_img_nemesis {
+        background-image: url("../Image/Map/nemesis.jpg");
+        background-size: cover;
+        background-position: center center;
+        width: 100%;
+        height: 400px;
+    }
+
+    .map_img_fallOut {
+        background-image: url("../Image/Map/fallOut.png");
+        background-size: cover;
+        background-position: center center;
+        width: 100%;
+        height: 400px;
+    }
+
+    .map_img_frost {
+        background-image: url("../Image/Map/frost.jpg");
+        background-size: cover;
+        background-position: center center;
+        width: 100%;
+        height: 400px;
     }
 }
+
 
 @media (min-width:1500px) {
     /* home body main img */
@@ -373,5 +863,185 @@
     .notice_content_list li {
         list-style: none;
         margin-bottom: 20px;
+    }
+
+    /* 맵 상단 올리기 버튼 */
+    .toTOP {
+        margin-top: 7px;
+        margin-right: 5px;
+        float: right;
+        font-size: 16px;
+        text-decoration: none;
+        border-radius: 10px;
+        color: black;
+        background-color: #f5c194;
+    }
+    /* 맵 선택자 */
+
+    .map_selector {
+        margin-top: 20px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 300px;
+        height: 200px;
+        margin-bottom: 20px;
+    }
+    .map_selector a {
+        border-radius: 5px;
+        font-size: 16px;
+        background-color: mediumaquamarine;
+        color: white;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    /*맵 공통 설정 */
+
+    .map_title {
+        font-size: 26px;
+        background-color: seagreen;
+        font-weight: bold;
+    }
+
+    .map_record {
+        margin-top: 20px;
+        font-size: 16px;
+    }
+
+    .map_info_link {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .map_info_link a {
+        border-radius: 10px;
+        text-decoration: none;
+        color: black;
+        background-color: chocolate;
+    }
+
+    .map_info_link a:hover {
+        background-color: coral;
+    }
+
+    /*맵별 설정*/
+    .map_img_fighting_split {
+        background-image: url("../Image/Map/fighting.jpg");
+        background-size: cover;
+        background-position: center center;
+        width: 100%;
+        height: 400px;
+    }
+
+    .map_img_polipoid {
+        background-image: url("../Image/Map/polipoid.jpg");
+        background-size: cover;
+        background-position: center center;
+        width: 100%;
+        height: 400px;
+    }
+
+    .map_img_largo {
+        background-image: url("../Image/Map/largo.jpg");
+        background-size: cover;
+        background-position: center center;
+        width: 100%;
+        height: 400px;
+    }
+
+    .map_img_accention {
+        background-image: url("../Image/Map/accention.jpg");
+        background-size: cover;
+        background-position: center center;
+        width: 100%;
+        height: 400px;
+    }
+    
+    .map_img_rivolver {
+        background-image: url("../Image/Map/rivolver.jpg");
+        background-size: cover;
+        background-position: center center;
+        width: 100%;
+        height: 400px;
+    }
+
+    .map_img_eclipse {
+        background-image: url("../Image/Map/eclipse.jpg");
+        background-size: cover;
+        background-position: center center;
+        width: 100%;
+        height: 400px;
+    }
+
+    .map_img_goodnight {
+        background-image: url("../Image/Map/goodnight.jpg");
+        background-size: cover;
+        background-position: center center;
+        width: 100%;
+        height: 400px;
+    }
+
+    .map_img_butter {
+        background-image: url("../Image/Map/butter.jpg");
+        background-size: cover;
+        background-position: center center;
+        width: 100%;
+        height: 400px;
+    }
+
+    .map_img_allegro {
+        background-image: url("../Image/Map/allegro.jpg");
+        background-size: cover;
+        background-position: center center;
+        width: 100%;
+        height: 400px;
+    }
+
+    .map_img_vermee {
+        background-image: url("../Image/Map/vermee.jpg");
+        background-size: cover;
+        background-position: center center;
+        width: 100%;
+        height: 400px;
+    }
+
+    .map_img_Neo_arkanoid {
+        background-image: url("../Image/Map/Neo_arkanoid.jpg");
+        background-size: cover;
+        background-position: center center;
+        width: 100%;
+        height: 400px;
+    }
+
+    .map_img_odyssey {
+        background-image: url("../Image/Map/odyssey.jpg");
+        background-size: cover;
+        background-position: center center;
+        width: 100%;
+        height: 400px;
+    }
+
+    .map_img_nemesis {
+        background-image: url("../Image/Map/nemesis.jpg");
+        background-size: cover;
+        background-position: center center;
+        width: 100%;
+        height: 400px;
+    }
+
+    .map_img_fallOut {
+        background-image: url("../Image/Map/fallOut.png");
+        background-size: cover;
+        background-position: center center;
+        width: 100%;
+        height: 400px;
+    }
+
+    .map_img_frost {
+        background-image: url("../Image/Map/frost.jpg");
+        background-size: cover;
+        background-position: center center;
+        width: 100%;
+        height: 400px;
     }
 }
