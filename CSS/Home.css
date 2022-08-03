@@ -106,19 +106,19 @@
 
     /*공지사항 레이아웃*/
     .notice {
-        height: 1500px;
+        height: 100%;
         display: inline-block;
         text-align: center;
         width: 350px;
     }
 
-    #notice_space_1, #notice_space_2, #notice_space_3,#notice_space_4 {
+    #notice_space_1, #notice_space_2, #notice_space_3,#notice_space_4,#notice_space_5,#notice_space_6,#notice_space_7,#notice_space_8 {
         margin-top: 60px;
         width: 300px;
         height: 280px;
         float: left;
         border-radius: 20px;
-        background-color: rgb(247, 80, 51);
+        background-color: rgba(247, 80, 51,0.6);
         margin-left: 20px;
         margin-right: 20px;
         font-weight: bold;
@@ -148,6 +148,47 @@
         margin-bottom: 20px;
         font-size: 13px;
     } 
+
+    .notice_content_list li img {
+        width: 35%;
+        height: 100px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .legue_record_img_eunha_1 {
+        margin-left: 5px;
+        margin-right: 5px;
+        background-image: url("../Image/League_image/eunha_league.png");
+        background-position: center center;
+        background-size: cover;
+        height: 150px;
+    }
+
+    .tournament_record_img_w_1 {
+        margin-left: 5px;
+        margin-right: 5px;
+        background-image: url("../Image/Tournament_image/W_토너먼트대진표.png");
+        background-position: center center;
+        background-size: cover;
+        height: 150px;
+    }
+    .tournament_record_img_w_2 {
+        margin-left: 5px;
+        margin-right: 5px;
+        background-image: url("../Image/Tournament_image/W_tor2.png");
+        background-position: center center;
+        background-size: cover;
+        height: 150px;
+    }
+    .tournament_record_img_w_3 {
+        margin-left: 5px;
+        margin-right: 5px;
+        background-image: url("../Image/Tournament_image/W_tor4.png");
+        background-position: center center;
+        background-size: cover;
+        height: 200px;
+    }
 
     /* 맵 상단 올리기 버튼 */
     .toTOP {
@@ -339,7 +380,6 @@
         background-image: url("../Image/Home/body_img/home_main.jpg");
         background-position: center top;
         background-size: cover;
-        /* height: 350px; */
     }
 
     /*공지사항 레이아웃*/
@@ -348,16 +388,16 @@
         display: inline-block;
         text-align: center;
         width: 680px;
-        height: 1400px;
+        height: 100%;
     }
 
-    #notice_space_1, #notice_space_2, #notice_space_3,#notice_space_4 {
+    #notice_space_1, #notice_space_2, #notice_space_3,#notice_space_4,#notice_space_5,#notice_space_6,#notice_space_7,#notice_space_8 {
         margin-top: 60px;
         width: 300px;
         height: 280px;
         float: left;
         border-radius: 20px;
-        background-color: rgb(247, 80, 51);
+        background-color: rgba(247, 80, 51,0.6);
         margin-left: 20px;
         margin-right: 20px;
         font-weight: bold;
@@ -386,6 +426,47 @@
         list-style: none;
         margin-bottom: 20px;
         font-size: 12px;
+    }
+
+    .notice_content_list li img {
+        width: 35%;
+        height: 100px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .legue_record_img_eunha_1 {
+        margin-left: 5px;
+        margin-right: 5px;
+        background-image: url("../Image/League_image/eunha_league.png");
+        background-position: center center;
+        background-size: cover;
+        height: 150px;
+    }
+
+    .tournament_record_img_w_1 {
+        margin-left: 5px;
+        margin-right: 5px;
+        background-image: url("../Image/Tournament_image/W_토너먼트대진표.png");
+        background-position: center center;
+        background-size: cover;
+        height: 150px;
+    }
+    .tournament_record_img_w_2 {
+        margin-left: 5px;
+        margin-right: 5px;
+        background-image: url("../Image/Tournament_image/W_tor2.png");
+        background-position: center center;
+        background-size: cover;
+        height: 150px;
+    }
+    .tournament_record_img_w_3 {
+        margin-left: 5px;
+        margin-right: 5px;
+        background-image: url("../Image/Tournament_image/W_tor4.png");
+        background-position: center center;
+        background-size: cover;
+        height: 200px;
     }
 
      /* 맵 상단 올리기 버튼 */
@@ -575,7 +656,7 @@
         background-image: url("../Image/Home/body_img/home_main.jpg");
         background-position: center top;
         background-size: cover;
-        height: 450px;
+        height: 750px;
     }
 
     /*공지사항 레이아웃*/
@@ -584,16 +665,16 @@
         display: inline-block;
         text-align: center;
         width: 800px;
-        height: 1400px;
+        height: 100%;
     }
 
-    #notice_space_1, #notice_space_2, #notice_space_3,#notice_space_4 {
+    #notice_space_1, #notice_space_2, #notice_space_3,#notice_space_4,#notice_space_5,#notice_space_6,#notice_space_7,#notice_space_8 {
         margin-top: 60px;
         width: 360px;
         height: 280px;
         float: left;
         border-radius: 20px;
-        background-color: rgb(247, 80, 51);
+        background-color: rgb(247, 80, 51,0.6);
         margin-left: 20px;
         margin-right: 20px;
         font-weight: bold;
@@ -622,6 +703,47 @@
         list-style: none;
         margin-bottom: 20px;
         font-size: 16px;
+    }
+
+    .notice_content_list li img {
+        width: 35%;
+        height: 100px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .legue_record_img_eunha_1 {
+        margin-left: 5px;
+        margin-right: 5px;
+        background-image: url("../Image/League_image/eunha_league.png");
+        background-position: center center;
+        background-size: cover;
+        height: 150px;
+    }
+
+    .tournament_record_img_w_1 {
+        margin-left: 5px;
+        margin-right: 5px;
+        background-image: url("../Image/Tournament_image/W_토너먼트대진표.png");
+        background-position: center center;
+        background-size: cover;
+        height: 200px;
+    }
+    .tournament_record_img_w_2 {
+        margin-left: 5px;
+        margin-right: 5px;
+        background-image: url("../Image/Tournament_image/W_tor2.png");
+        background-position: center center;
+        background-size: cover;
+        height: 200px;
+    }
+    .tournament_record_img_w_3 {
+        margin-left: 5px;
+        margin-right: 5px;
+        background-image: url("../Image/Tournament_image/W_tor4.png");
+        background-position: center center;
+        background-size: cover;
+        height: 250px;
     }
 
     /* 맵 상단 올리기 버튼 */
@@ -823,13 +945,13 @@
         width: 1600px;
     }
 
-    #notice_space_1, #notice_space_2, #notice_space_3,#notice_space_4 {
-        margin-top: 120px;
+    #notice_space_1, #notice_space_2, #notice_space_3,#notice_space_4,#notice_space_5,#notice_space_6,#notice_space_7,#notice_space_8 {
+        margin-top: 40px;
         width: 380px;
-        height: 500px;
+        height: 300px;
         float: left;
         border-radius: 20px;
-        background-color: rgb(247, 80, 51);
+        background-color: rgb(247, 80, 51,0.6);
         font-weight: bold;
         display: block;
         margin-left: auto;
@@ -863,6 +985,47 @@
     .notice_content_list li {
         list-style: none;
         margin-bottom: 20px;
+    }
+
+    .notice_content_list li img {
+        width: 30%;
+        height: 100px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .legue_record_img_eunha_1 {
+        margin-left: 5px;
+        margin-right: 5px;
+        background-image: url("../Image/League_image/eunha_league.png");
+        background-position: center center;
+        background-size: cover;
+        height: 150px;
+    }
+
+    .tournament_record_img_w_1 {
+        margin-left: 5px;
+        margin-right: 5px;
+        background-image: url("../Image/Tournament_image/W_토너먼트대진표.png");
+        background-position: center center;
+        background-size: cover;
+        height: 250px;
+    }
+    .tournament_record_img_w_2 {
+        margin-left: 5px;
+        margin-right: 5px;
+        background-image: url("../Image/Tournament_image/W_tor2.png");
+        background-position: center center;
+        background-size: cover;
+        height: 250px;
+    }
+    .tournament_record_img_w_3 {
+        margin-left: 5px;
+        margin-right: 5px;
+        background-image: url("../Image/Tournament_image/W_tor4.png");
+        background-position: center center;
+        background-size: cover;
+        height: 250px;
     }
 
     /* 맵 상단 올리기 버튼 */
