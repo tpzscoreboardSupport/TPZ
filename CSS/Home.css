@@ -452,16 +452,23 @@
         border: 0px solid black;
         background-color: seagreen;
         padding: 10px;
+        height: 93px;
+        overflow-y: auto;
     }
 
     .Personal_Record_title h1 {
         font-size: 28px;
     }
 
-    .Personal_Record_title img {
+     .star_grade {
         width: 200px;
     }
-
+    
+     .season_tropy {
+        width: 50px;
+        height: 50px;
+        margin-right: 20px;
+    }
     .Personal_Record_User_Video iframe {
         width: 100%;
         height: 200px;
@@ -842,6 +849,7 @@
         border: 0px solid black;
         background-color: seagreen;
         padding: 10px;
+        height: 93px;
     }
 
     .Personal_Record_title h1 {
@@ -889,7 +897,7 @@
     }
 
     .league_depense_box {
-        height: 1309px;
+        height: 1320px;
     }
 
 @media (min-width:991px) {
@@ -1277,6 +1285,7 @@
         border: 0px solid black;
         background-color: seagreen;
         padding: 10px;
+        height: 120px;
     }
 
     .Personal_Record_title h1 {
@@ -1324,7 +1333,7 @@
     }
 
     .league_depense_box {
-        height: 1316px;
+        height: 1347px;
     }
 }
 
@@ -1682,6 +1691,7 @@
                 border: 0px solid black;
                 background-color: seagreen;
                 padding: 10px;
+                height: 140px;
             }
 
             .Personal_Record_title h1 {
@@ -1729,7 +1739,7 @@
             }
 
             .league_depense_box {
-                height: 939px;
+                height: 967px;
             }
         }
     }
