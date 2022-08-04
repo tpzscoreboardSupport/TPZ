@@ -172,7 +172,7 @@
     .notice_content_list li {
         list-style: none;
         margin-bottom: 20px;
-        font-size: 13px;
+        font-size: 18px;
     } 
 
     .notice_content_list li img {
@@ -509,6 +509,38 @@
         color: white;
     }
 
+    /*리그 다시보기 설정 */
+    #list .league_list .League_schedule_title {
+        height: 30px;
+        width: 100%;
+        background-color: seagreen;
+        margin-bottom: 20px;
+        line-height: 30px;
+    }
+
+    #list .league_list .League_schedule_title h1{
+        font-size: 30px;
+        
+    }
+
+    #list .league_list .League_view a{
+        text-decoration: none;
+        color: black;
+    }
+
+    #list .league_list .League_view a h2{
+        font-size: 16px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    #list .league_list .League_view .User_video iframe{
+        width: 80%;
+        height: 200px;
+    }
+
+
+
 @media (min-width:767px) {
 
     /*네비게이션 글자 크기 조절*/
@@ -555,7 +587,7 @@
     }
 
     .notice_title h1{
-        font-size: 26px;
+        font-size: 28px;
     }
 
     /* 공지사항 내용*/
@@ -569,7 +601,7 @@
     .notice_content_list li {
         list-style: none;
         margin-bottom: 20px;
-        font-size: 14px;
+        font-size: 18px;
     }
 
     .notice_content_list li img {
@@ -911,6 +943,30 @@
         height: 1327px;
     }
 
+    /*리그 다시보기 설정 */
+    #list .league_list .League_schedule_title {
+        height: 30px;
+        width: 100%;
+        background-color: seagreen;
+        margin-bottom: 20px;
+    }
+
+    #list .league_list .League_view a{
+        text-decoration: none;
+        color: black;
+    }
+
+    #list .league_list .League_view a h2{
+        font-size: 20px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    #list .league_list .League_view .User_video iframe{
+        width: 80%;
+        height: 300px;
+    }
+
 @media (min-width:991px) {
 
     /*네비게이션 글자 크기 조절*/
@@ -958,7 +1014,7 @@
     }
 
     .notice_title h1{
-        font-size: 26px;
+        font-size: 30px;
     }
 
     /* 공지사항 내용*/
@@ -972,7 +1028,7 @@
     .notice_content_list li {
         list-style: none;
         margin-bottom: 20px;
-        font-size: 16px;
+        font-size: 20px;
     }
 
     .notice_content_list li img {
@@ -1346,6 +1402,31 @@
     .league_depense_box {
         height: 1347px;
     }
+
+    /*리그 다시보기 설정 */
+    #list .league_list .League_schedule_title {
+        height: 30px;
+        width: 100%;
+        background-color: seagreen;
+        margin-bottom: 20px;
+    }
+
+    #list .league_list .League_view a{
+        text-decoration: none;
+        color: black;
+    }
+
+    #list .league_list .League_view a h2{
+        font-size: 24px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    #list .league_list .League_view .User_video iframe{
+        width: 80%;
+        height: 400px;
+    }
+
 }
 
     @media (min-width:1600px) {
@@ -1402,20 +1483,25 @@
         }
 
         .notice_title h1{
-            font-size: 26px;
+            font-size: 40px;
         }
 
         /* 공지사항 내용*/
         .notice_content_list {
-            height: 200px;
+            height: 300px;
             margin-top: 20px;
             overflow-y: auto;
             text-decoration: underline;
+        }
+        
+        .notice_content_list h3{
+            font-size: 30px;
         }
 
         .notice_content_list li {
             list-style: none;
             margin-bottom: 20px;
+            font-size: 26px;
         }
 
         .notice_content_list li img {
@@ -1755,6 +1841,471 @@
             .league_depense_box {
                 height: 967px;
             }
+            
+            /*리그 다시보기 설정 */
+            #list .league_list .League_schedule_title {
+                height: 30px;
+                width: 100%;
+                background-color: seagreen;
+                margin-bottom: 20px;
+            }
+
+            #list .league_list .League_view a{
+                text-decoration: none;
+                color: black;
+            }
+
+            #list .league_list .League_view a h2{
+                font-size: 28px;
+                margin-top: 20px;
+                margin-bottom: 20px;
+            }
+
+            #list .league_list .League_view .User_video iframe{
+                width: 80%;
+                height: 500px;
+            }
+
+        }
+        
+    }
+
+    @media (min-width:1800px) {
+       
+        /*네비게이션 글자 크기 조절*/
+        .navbar a {
+            color: black;
+            font-weight: bold;
+            /* font-size: 100%; */
+            font-size: 34px;
+        }
+        
+        /* home body main img */
+        #home_main_img {
+            background-image: url("../Image/Home/body_img/home_main.jpg");
+            background-position: center top;
+            background-size: cover;
+            height: 856px;
+        }
+
+            /*공지사항 레이아웃*/
+            .notice {
+                margin-top: 50px;
+                height: 1245px;
+                display: inline-block;
+                text-align: center;
+                width: 2000px;
+        }
+
+        #notice_space_1, #notice_space_2, #notice_space_3,#notice_space_4,#notice_space_5,#notice_space_6,#notice_space_7,#notice_space_8 {
+            margin-top: 100px;
+            width: 480px;
+            height: 400px;
+            float: left;
+            border-radius: 20px;
+            background-color: rgb(247, 80, 51,0.6);
+            font-weight: bold;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-right: 20px;
+            margin-bottom: 80px;
+        }
+
+        #notice_space_5 {
+            margin-right: 0px;
+        }
+
+        /*공지사항 제목 */
+        .notice_title {
+            background-color: seagreen;
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+        }
+
+        .notice_title h1{
+            font-size: 60px;
+        }
+
+        /* 공지사항 내용*/
+        .notice_content_list {
+            height: 300px;
+            margin-top: 30px;
+            overflow-y: auto;
+            text-decoration: underline;
+        }
+
+        .notice_content_list li {
+            list-style: none;
+            margin-bottom: 30px;
+            font-size: 30px;
+        }
+
+        .notice_content_list h3{
+            font-size: 30px;
+        }
+
+        .notice_content_list li img {
+            width: 30%;
+            height: 100px;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+
+        /* 친선리그 설정 */
+        .legue_record_img_eunha_1 {
+            margin-left: 5px;
+            margin-right: 5px;
+            background-image: url("../Image/League_image/eunha_league.png");
+            background-position: center center;
+            background-size: cover;
+            height: 250px;
+        }
+
+        /* 토너먼트 설정 */
+        .tournament_record_img_w_1 {
+            margin-left: 5px;
+            margin-right: 5px;
+            background-image: url("../Image/Tournament_image/W_토너먼트대진표.png");
+            background-position: center center;
+            background-size: cover;
+            height: 300px;
+        }
+        .tournament_record_img_w_2 {
+            margin-left: 5px;
+            margin-right: 5px;
+            background-image: url("../Image/Tournament_image/W_tor2.png");
+            background-position: center center;
+            background-size: cover;
+            height: 300px;
+        }
+        .tournament_record_img_w_3 {
+            margin-left: 5px;
+            margin-right: 5px;
+            background-image: url("../Image/Tournament_image/W_tor4.png");
+            background-position: center center;
+            background-size: cover;
+            height: 250px;
+        }
+
+        /* 공지사항 상단 올리기 버튼 */
+        .toTOP_NOTICE {
+            display: none;
+            margin-top: 7px;
+            margin-right: 5px;
+            position: absolute;
+            padding: 10px;
+            right: -40px;
+            bottom: 10px;
+            font-size: 16px;
+            border-radius: 20px;
+            color: black;
+            background-color: #f5c194;
+        }
+
+        /* 맵 상단 올리기 버튼 */
+        .toTOP_MAP {
+            margin-top: 5px;
+            margin-right: 5px;
+            padding: 2px;
+            float: right;
+            font-size: 24px;
+            border-radius: 10px;
+            color: black;
+            background-color: #f5c194;
+        }
+
+        /* 맵 선택자 */
+
+        .map_selector {
+            margin-top: 240px;
+            width: 90%;
+            height: 300px;
+            margin-bottom: 60px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .map_selector a {
+            border-radius: 5px;
+            font-size: 32px;
+            background-color: seagreen;
+            color: white;
+            margin: 10px;
+            padding: 5px;
+            float:left
+        }
+
+        .map_selector a:hover {
+            background-color: rgba(247, 80, 51);
+            opacity: 1;
+            font-size: 32px;
+        }
+
+        /*맵 공통 설정 */
+
+        .map_title {
+            font-size: 42px;
+            background-color: seagreen;
+            font-weight: bold;
+        }
+
+        .map_record {
+            margin-top: 20px;
+            font-size: 20px;
+        }
+
+        .map_info_link {
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        .map_info_link a {
+            border-radius: 10px;
+            font-size: 32px;
+            color: black;
+            background-color: chocolate;
+        }
+
+        .map_info_link a:hover {
+            background-color: coral;
+        }
+
+        /*맵별 설정*/
+        .map_img_fighting_split {
+            background-image: url("../Image/Map/fighting.jpg");
+            background-size: cover;
+            background-position: center center;
+            width: 100%;
+            height: 400px;
+        }
+
+        .map_img_polipoid {
+            background-image: url("../Image/Map/polipoid.jpg");
+            background-size: cover;
+            background-position: center center;
+            width: 100%;
+            height: 400px;
+        }
+
+        .map_img_largo {
+            background-image: url("../Image/Map/largo.jpg");
+            background-size: cover;
+            background-position: center center;
+            width: 100%;
+            height: 400px;
+        }
+
+        .map_img_accention {
+            background-image: url("../Image/Map/accention.jpg");
+            background-size: cover;
+            background-position: center center;
+            width: 100%;
+            height: 400px;
+        }
+        
+        .map_img_rivolver {
+            background-image: url("../Image/Map/rivolver.jpg");
+            background-size: cover;
+            background-position: center center;
+            width: 100%;
+            height: 400px;
+        }
+
+        .map_img_eclipse {
+            background-image: url("../Image/Map/eclipse.jpg");
+            background-size: cover;
+            background-position: center center;
+            width: 100%;
+            height: 400px;
+        }
+
+        .map_img_goodnight {
+            background-image: url("../Image/Map/goodnight.jpg");
+            background-size: cover;
+            background-position: center center;
+            width: 100%;
+            height: 400px;
+        }
+
+        .map_img_butter {
+            background-image: url("../Image/Map/butter.jpg");
+            background-size: cover;
+            background-position: center center;
+            width: 100%;
+            height: 400px;
+        }
+
+        .map_img_allegro {
+            background-image: url("../Image/Map/allegro.jpg");
+            background-size: cover;
+            background-position: center center;
+            width: 100%;
+            height: 400px;
+        }
+
+        .map_img_vermee {
+            background-image: url("../Image/Map/vermee.jpg");
+            background-size: cover;
+            background-position: center center;
+            width: 100%;
+            height: 400px;
+        }
+
+        .map_img_Neo_arkanoid {
+            background-image: url("../Image/Map/Neo_arkanoid.jpg");
+            background-size: cover;
+            background-position: center center;
+            width: 100%;
+            height: 400px;
+        }
+
+        .map_img_odyssey {
+            background-image: url("../Image/Map/odyssey.jpg");
+            background-size: cover;
+            background-position: center center;
+            width: 100%;
+            height: 400px;
+        }
+
+        .map_img_nemesis {
+            background-image: url("../Image/Map/nemesis.jpg");
+            background-size: cover;
+            background-position: center center;
+            width: 100%;
+            height: 400px;
+        }
+
+        .map_img_fallOut {
+            background-image: url("../Image/Map/fallOut.png");
+            background-size: cover;
+            background-position: center center;
+            width: 100%;
+            height: 400px;
+        }
+
+        .map_img_frost {
+            background-image: url("../Image/Map/frost.jpg");
+            background-size: cover;
+            background-position: center center;
+            width: 100%;
+            height: 400px;
+        }
+
+        /* 개인 전적 메인 설정*/
+        .Psersonal_Record_list {
+                margin-top: 80px;
+                margin-bottom: 60px;
+                height: 100%;
+            }
+        
+            .Psersonal_Record_list button {
+                width: 80px;
+                height: 80px;
+                border-radius: 120px;
+                margin-top: 40px;
+                margin-left: 10px;
+                margin-right: 10px;
+                background-color: seagreen;
+                border: 0px;
+                /* opacity: 0.6; */
+            }
+        
+            .Psersonal_Record_list button:hover {
+                background-color: rgba(247, 80, 51);
+                box-shadow: -2px 2px 10px 10px mediumspringgreen;
+            }
+        
+            .Psersonal_Record_list button a {
+                color: black;
+            }
+        
+            .Psersonal_Record_list button a:hover {
+                color: white;
+                font-weight: bold;
+                font-size: 20px;
+            }
+        
+            /* 개인별 전적 설정*/
+            .Personal_Record_title {
+                border: 0px solid black;
+                background-color: seagreen;
+                padding: 10px;
+                height: 140px;
+            }
+
+            .Personal_Record_title h1 {
+                font-size: 46px;
+            }
+
+            .Personal_Record_title img {
+                width: 350px;
+            }
+
+            .Personal_Record_User_Video iframe {
+                width: 100%;
+                height: 800px;
+            }
+            .map_record_info {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                padding: 100px;
+                width: 200px;
+                font-size: 20px;
+            }
+            
+            .map_record_info ul ol {
+                overflow-y: scroll;
+                -ms-overflow-style: none;
+                height: 170px;
+            }
+            .map_record_info ul ol li {
+                list-style: none;
+                margin-top: 20px;
+                font-weight: bold;
+            }
+            .map_boxing {
+                float: left;
+                width: 24.85%;
+            }
+        
+            .map_boxing .map_record_info {
+                padding: 25px;
+            }
+        
+            .map_boxing .map_record_info h3 {
+                margin-top: 100px;
+            }
+
+            .league_depense_box {
+                height: 967px;
+            }
+            
+            /*리그 다시보기 설정 */
+            #list .league_list .League_schedule_title {
+                height: 30px;
+                width: 100%;
+                background-color: seagreen;
+                margin-bottom: 20px;
+            }
+
+            #list .league_list .League_view a{
+                text-decoration: none;
+                color: black;
+            }
+
+            #list .league_list .League_view a h2{
+                font-size: 28px;
+                margin-top: 20px;
+                margin-bottom: 20px;
+            }
+
+            #list .league_list .League_view .User_video iframe{
+                width: 80%;
+                height: 500px;
+            }
+
         }
     }
-}
