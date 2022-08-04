@@ -128,11 +128,12 @@
 
     /*공지사항 레이아웃*/
     .notice {
-        padding-top: 60px;
+        /* padding-top: 60px; */
         height: 100%;
         display: inline-block;
         text-align: center;
         width: 350px;
+        padding-bottom: 60px;
         /* position: relative; 상단 바 고정으로 Off*/
     }
 
