@@ -859,7 +859,7 @@
         border: 0px solid black;
         background-color: seagreen;
         padding: 10px;
-        height: 93px;
+        height: 100px;
     }
 
     .Personal_Record_title h1 {
@@ -907,7 +907,7 @@
     }
 
     .league_depense_box {
-        height: 1320px;
+        height: 1327px;
     }
 
 @media (min-width:991px) {
