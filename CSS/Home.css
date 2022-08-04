@@ -1447,8 +1447,8 @@
             height: 856px;
         }
 
-            /*공지사항 레이아웃*/
-            .notice {
+        /*공지사항 레이아웃*/
+        .notice {
                 margin-top: 50px;
                 height: 1245px;
                 display: inline-block;
@@ -1888,69 +1888,69 @@
             height: 856px;
         }
 
-            /*공지사항 레이아웃*/
-            .notice {
-                margin-top: 50px;
-                height: 1245px;
-                display: inline-block;
-                text-align: center;
-                width: 2000px;
-        }
+        /*공지사항 레이아웃*/
+        .notice {
+            margin-top: 50px;
+            height: 1245px;
+            display: inline-block;
+            text-align: center;
+            width: 1600px;
+    }
 
-        #notice_space_1, #notice_space_2, #notice_space_3,#notice_space_4,#notice_space_5,#notice_space_6,#notice_space_7,#notice_space_8 {
-            margin-top: 100px;
-            width: 480px;
-            height: 400px;
-            float: left;
-            border-radius: 20px;
-            background-color: rgb(247, 80, 51,0.6);
-            font-weight: bold;
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            margin-right: 20px;
-            margin-bottom: 80px;
-        }
+    #notice_space_1, #notice_space_2, #notice_space_3,#notice_space_4,#notice_space_5,#notice_space_6,#notice_space_7,#notice_space_8 {
+        margin-top: 80px;
+        width: 380px;
+        height: 400px;
+        float: left;
+        border-radius: 20px;
+        background-color: rgb(247, 80, 51,0.6);
+        font-weight: bold;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-right: 20px;
+        margin-bottom: 80px;
+    }
 
-        #notice_space_5 {
-            margin-right: 0px;
-        }
+    #notice_space_5 {
+        margin-right: 0px;
+    }
 
-        /*공지사항 제목 */
-        .notice_title {
-            background-color: seagreen;
-            border-top-left-radius: 20px;
-            border-top-right-radius: 20px;
-        }
+    /*공지사항 제목 */
+    .notice_title {
+        background-color: seagreen;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
 
-        .notice_title h1{
-            font-size: 60px;
-        }
+    .notice_title h1{
+        font-size: 40px;
+    }
 
-        /* 공지사항 내용*/
-        .notice_content_list {
-            height: 300px;
-            margin-top: 30px;
-            overflow-y: auto;
-            text-decoration: underline;
-        }
+    /* 공지사항 내용*/
+    .notice_content_list {
+        height: 300px;
+        margin-top: 20px;
+        overflow-y: auto;
+        text-decoration: underline;
+    }
+    
+    .notice_content_list h3{
+        font-size: 30px;
+    }
 
-        .notice_content_list li {
-            list-style: none;
-            margin-bottom: 30px;
-            font-size: 30px;
-        }
+    .notice_content_list li {
+        list-style: none;
+        margin-bottom: 20px;
+        font-size: 26px;
+    }
 
-        .notice_content_list h3{
-            font-size: 30px;
-        }
-
-        .notice_content_list li img {
-            width: 30%;
-            height: 100px;
-            margin-left: 10px;
-            margin-right: 10px;
-        }
+    .notice_content_list li img {
+        width: 30%;
+        height: 100px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
 
         /* 친선리그 설정 */
         .legue_record_img_eunha_1 {
