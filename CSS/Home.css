@@ -219,10 +219,11 @@
 
     /* 공지사항 상단 올리기 버튼 */
     .toTOP_NOTICE {
-        margin-top: 7px;
-        margin-right: 5px;
+        /* margin-top: 5px;
+        margin-right: 3px; */
         position: absolute;
         padding: 10px;
+        right: 10px;
         /* right: -40px; 상단 바 고정으로 Off*/
         bottom: 6%; /* 상단 바 고정으로 상대 값 설정*/
         font-size: 16px;
@@ -970,7 +971,7 @@
     .notice_content_list li {
         list-style: none;
         margin-bottom: 20px;
-        font-size: 18px;
+        font-size: 16px;
     }
 
     .notice_content_list li img {
