@@ -502,8 +502,10 @@
         font-size: 20px;
     }
 
-
-    
+    .map_record_info h3 {
+        font-size: 20px;
+    }
+   
     .map_record_info ul ol {
         overflow-y: scroll;
         -ms-overflow-style: none;
@@ -927,6 +929,10 @@
         font-size: 20px;
     }
     
+    .map_record_info h3 {
+        font-size: 20px;
+    }
+
     .map_record_info ul ol {
         overflow-y: scroll;
         -ms-overflow-style: none;
@@ -944,10 +950,6 @@
 
     .map_boxing .map_record_info {
         padding: 25px;
-    }
-
-    .map_record_info h3 {
-        font-size: 23px;
     }
 
     .map_boxing .map_record_info h3 {
@@ -1391,6 +1393,10 @@
         font-size: 20px;
     }
     
+    .map_record_info h3 {
+        font-size: 20px;
+    }
+
     .map_record_info ul ol {
         overflow-y: scroll;
         -ms-overflow-style: none;
@@ -1827,6 +1833,10 @@
                 margin-right: auto;
                 padding: 100px;
                 width: 200px;
+                font-size: 20px;
+            }
+
+            .map_record_info h3 {
                 font-size: 20px;
             }
             
@@ -2268,6 +2278,10 @@
                 margin-right: auto;
                 padding: 100px;
                 width: 200px;
+                font-size: 20px;
+            }
+
+            .map_record_info h3 {
                 font-size: 20px;
             }
             
