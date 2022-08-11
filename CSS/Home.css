@@ -424,6 +424,14 @@
         height: 400px;
     }
 
+    .map_img_cirkitBraker {
+        background-image: url("../Image/Map/cirkitBraker.jpeg");
+        background-size: cover;
+        background-position: center center;
+        width: 100%;
+        height: 400px;
+    }
+
     /* 개인 전적 메인 설정*/
     .Psersonal_Record_list {
         margin-top: 80px;
@@ -484,6 +492,7 @@
         width: 100%;
         height: 200px;
     }
+
     .map_record_info {
         display: block;
         margin-left: auto;
@@ -492,6 +501,8 @@
         width: 200px;
         font-size: 20px;
     }
+
+
     
     .map_record_info ul ol {
         overflow-y: scroll;
@@ -933,6 +944,10 @@
 
     .map_boxing .map_record_info {
         padding: 25px;
+    }
+
+    .map_record_info h3 {
+        font-size: 23px;
     }
 
     .map_boxing .map_record_info h3 {
