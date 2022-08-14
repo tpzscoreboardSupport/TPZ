@@ -1,7 +1,7 @@
 let colors = ["black", "red", "blue" ,"green", "Yellow", "lime", "hotpink","orange"]
 let SaveCollect = document.getElementById('collector');
 SaveCollect.innerText = "[Winnner] ";
-SaveCollect.style.fontSize = "80%";
+SaveCollect.style.fontSize = "70%";
 let idx = 0;
 
 setInterval (function () {
