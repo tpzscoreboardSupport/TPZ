@@ -183,13 +183,21 @@
     }
 
     /* 친선리그 설정 */
-    .legue_record_img_eunha_1 {
+    .legue_record_img {
         margin-left: 5px;
         margin-right: 5px;
-        background-image: url("../Image/League_image/eunha_league.png");
-        background-position: center center;
+        /* background-position: center center; */
         background-size: cover;
-        height: 150px;
+    }
+
+    #eunha_1 {
+        background-image: url("../Image/League_image/eunha_league.png");
+        height: 160px;
+    }
+
+    #eunha_2 {
+        background-image: url("../Image/League_image/eunha_league_2.png");
+        height: 200px;
     }
 
     /* 토너먼트 설정 */
@@ -199,7 +207,7 @@
         background-image: url("../Image/Tournament_image/W_토너먼트대진표.png");
         background-position: center center;
         background-size: cover;
-        height: 200px;
+        height: 150px;
     }
     .tournament_record_img_w_2 {
         margin-left: 5px;
@@ -213,9 +221,9 @@
         margin-left: 5px;
         margin-right: 5px;
         background-image: url("../Image/Tournament_image/W_tor4.png");
-        background-position: center center;
+        /* background-position: center center; */
         background-size: cover;
-        height: 200px;
+        height: 250px;
     }
 
     /* 공지사항 상단 올리기 버튼 */
@@ -625,14 +633,23 @@
     }
 
     /* 친선리그 설정 */
-    .legue_record_img_eunha_1 {
+    .legue_record_img {
         margin-left: 5px;
         margin-right: 5px;
-        background-image: url("../Image/League_image/eunha_league.png");
-        background-position: center center;
+        /* background-position: center center; */
         background-size: cover;
-        height: 150px;
     }
+
+    #eunha_1 {
+        background-image: url("../Image/League_image/eunha_league.png");
+        height: 160px;
+    }
+
+    #eunha_2 {
+        background-image: url("../Image/League_image/eunha_league_2.png");
+        height: 200px;
+    }
+
 
     /* 토너먼트 설정 */
     .tournament_record_img_w_1 {
@@ -655,7 +672,7 @@
         margin-left: 5px;
         margin-right: 5px;
         background-image: url("../Image/Tournament_image/W_tor4.png");
-        background-position: center center;
+        /* background-position: center center; */
         background-size: cover;
         height: 200px;
     }
@@ -1056,14 +1073,23 @@
     }
 
     /* 친선리그 설정 */
-    .legue_record_img_eunha_1 {
+    .legue_record_img {
         margin-left: 5px;
         margin-right: 5px;
-        background-image: url("../Image/League_image/eunha_league.png");
-        background-position: center center;
+        /* background-position: center center; */
         background-size: cover;
-        height: 150px;
     }
+
+    #eunha_1 {
+        background-image: url("../Image/League_image/eunha_league.png");
+        height: 190px;
+    }
+
+    #eunha_2 {
+        background-image: url("../Image/League_image/eunha_league_2.png");
+        height: 240px;
+    }
+
 
     /* 토너먼트 설정 */
     .tournament_record_img_w_1 {
@@ -1533,14 +1559,23 @@
         }
 
         /* 친선리그 설정 */
-        .legue_record_img_eunha_1 {
+        .legue_record_img {
             margin-left: 5px;
             margin-right: 5px;
-            background-image: url("../Image/League_image/eunha_league.png");
-            background-position: center center;
+            /* background-position: center center; */
             background-size: cover;
-            height: 150px;
         }
+
+        #eunha_1 {
+            background-image: url("../Image/League_image/eunha_league.png");
+            height: 200px;
+        }
+    
+        #eunha_2 {
+            background-image: url("../Image/League_image/eunha_league_2.png");
+            height: 260px;
+        }
+
 
         /* 토너먼트 설정 */
         .tournament_record_img_w_1 {
@@ -1563,9 +1598,9 @@
             margin-left: 5px;
             margin-right: 5px;
             background-image: url("../Image/Tournament_image/W_tor4.png");
-            background-position: center center;
+            /* background-position: center center; */
             background-size: cover;
-            height: 250px;
+            height: 270px;
         }
 
         /* 공지사항 상단 올리기 버튼 */
@@ -1971,20 +2006,28 @@
     }
 
     .notice_content_list li img {
-        width: 30%;
+        width: 35%;
         height: 100px;
         margin-left: 10px;
         margin-right: 10px;
     }
 
         /* 친선리그 설정 */
-        .legue_record_img_eunha_1 {
+        .legue_record_img {
             margin-left: 5px;
             margin-right: 5px;
+            /* background-position: center center; */
+            background-size: cover;   
+        }
+
+        #eunha_1 {
             background-image: url("../Image/League_image/eunha_league.png");
-            background-position: center center;
-            background-size: cover;
-            height: 250px;
+            height: 200px;
+        }
+    
+        #eunha_2 {
+            background-image: url("../Image/League_image/eunha_league_2.png");
+            height: 260px;
         }
 
         /* 토너먼트 설정 */
@@ -1994,7 +2037,7 @@
             background-image: url("../Image/Tournament_image/W_토너먼트대진표.png");
             background-position: center center;
             background-size: cover;
-            height: 300px;
+            height: 250px;
         }
         .tournament_record_img_w_2 {
             margin-left: 5px;
@@ -2002,15 +2045,15 @@
             background-image: url("../Image/Tournament_image/W_tor2.png");
             background-position: center center;
             background-size: cover;
-            height: 300px;
+            height: 250px;
         }
         .tournament_record_img_w_3 {
             margin-left: 5px;
             margin-right: 5px;
             background-image: url("../Image/Tournament_image/W_tor4.png");
-            background-position: center center;
+            /* background-position: center center; */
             background-size: cover;
-            height: 250px;
+            height: 270px;
         }
 
         /* 공지사항 상단 올리기 버튼 */
