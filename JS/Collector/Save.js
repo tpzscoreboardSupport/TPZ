@@ -1,7 +1,7 @@
 let colors = ["black", "red", "blue" ,"green", "Yellow", "lime", "hotpink","orange"]
 let SaveCollect = document.getElementById('collector');
 SaveCollect.innerText = "[SAVE] ";
-SaveCollect.style.fontSize = "40px";
+SaveCollect.style.fontSize = "100%";
 let idx = 0;
 
 setInterval (function () {
