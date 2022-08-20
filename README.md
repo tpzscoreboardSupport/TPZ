@@ -1,4 +1,4 @@
-# TPZ Score Board
+### [TPZ Score Bord](https://tpzscoreboardsupport.github.io/TPZ/HTML/Home.html)
 
 1. 22.08.01 ~ 22.08.03 반응형 레이아웃 / 공지사항 / 맵별 전적 작업 완성
 
@@ -11,3 +11,5 @@
 5. 22.08.14 칭호 업데이트
 
 6. 22.08.20 리그 전적 업데이트 및 신규 유저 전적 추가
+
+### TPZ 사이트 업데이트 미적용 이슈 발생
